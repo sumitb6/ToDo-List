@@ -1,4 +1,4 @@
 # ToDo-List
-https://github.com/sumitb6/ToDo-List.git
+ https://sumitb6.github.io/ToDo-List/
 
 Nothing complex. Just save the files and run .
