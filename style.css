@@ -1,0 +1,43 @@
+.container{
+     width: 500px;
+    margin: 50px auto;
+}
+.header{
+    text-align: center;
+}
+.headerTitle{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 35px;
+}
+#inputField{
+    border: 2px solid gray;
+    width: 200px;
+    height: 15px;
+    margin-right: 5px;
+}
+li{
+    padding: 20px 0px 10px 5px;
+    /* margin: 20px; */
+    list-style-type: number;
+    
+    font-size: 17px;
+    text-transform: capitalize ;
+}
+li:nth-child(odd){
+    background-color: lightgray;
+    height: 25px;
+}
+
+#addButton{
+    background-color: lightgreen;
+    padding: 5px 12px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#todoBox{
+    margin-top: 20px;
+    border: 1px solid gray;
+    height: 500px;
+}
