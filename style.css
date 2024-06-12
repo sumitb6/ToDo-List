@@ -39,5 +39,32 @@ li:nth-child(odd){
 #todoBox{
     margin-top: 20px;
     border: 1px solid gray;
-    height: 500px;
+    height: auto;
 }
+ul{
+    margin-right: 10px;
+}
+ul li{
+    position: relative;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: orangered;
+    width: 30px;
+    height: 34px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10%;
+}
+
+ul li span:hover{
+    background-color: #edeef0;
+    
+}
+.checked{
+    text-decoration: line-through;
+}
+
